@@ -71,6 +71,6 @@ app.get("/:id",function (req,res,next)
     }
   });
 });
-app.listen(3000, () => {
+app.listen(3000|process.env.PORT, () => {
   console.log(`Server started on 3000`);
 });
